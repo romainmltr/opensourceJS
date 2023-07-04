@@ -1,0 +1,16 @@
+{
+  "name": "opensource-js-romain-iim-first",
+  "version": "1.0.0",
+  "description": "random package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-node": "^4.1.0",
+    "mocha": "^10.2.0"
+  }
+}

@@ -26,5 +26,11 @@ jobs:
       - name: 'Run tests with Mocha'
         run: npx mocha
 
+      - name : 'publish npm'
+        uses: js-actions/npm@master
+        with:
+          args: publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 

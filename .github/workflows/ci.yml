@@ -27,9 +27,7 @@ jobs:
         run: npx mocha
 
       - name : 'publish npm'
-        uses: js-actions/npm@master
-        with:
-          args: publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
